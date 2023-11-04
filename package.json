@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UnknowMilitian/kubtel.git"
+    "url": "git+https://github.com/UnknowMilitian/Kubtel---FrontEnd-Project.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/UnknowMilitian/kubtel/issues"
+    "url": "https://github.com/UnknowMilitian/Kubtel---FrontEnd-Project/issues"
   },
-  "homepage": "https://github.com/UnknowMilitian/kubtel#readme",
+  "homepage": "https://github.com/UnknowMilitian/Kubtel---FrontEnd-Project#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.5"
   }
