@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 .navbar-button {
-  @apply py-2 px-2 block hover:bg-white w-full hover:rounded-lg hover:text-pink-400 hover:border-l-4 hover:border-pink-400 items-center;
+  @apply py-2 px-2 block transition-all delay-75 ease hover:bg-white w-full hover:rounded-l-lg hover:text-pink-400 hover:border-r-4 hover:border-pink-400 items-center;
 }
 
 .navbar-button.active {
-  @apply py-2 px-2 block bg-white w-full rounded-lg text-pink-400 border-l-4 border-pink-400 items-center;
+  @apply py-2 px-2 block transition-all delay-75 ease bg-white w-full rounded-l-lg text-pink-400 border-r-4 border-pink-400 items-center;
+}
+
+.btn {
+  @apply bg-pink-400 transition-all delay-75 ease hover:bg-pink-500 text-white items-center rounded-lg;
 }
