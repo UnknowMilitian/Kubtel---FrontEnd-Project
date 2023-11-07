@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar-button {
+  @apply py-2 px-2 block hover:bg-white w-full hover:rounded-lg hover:text-pink-400 hover:border-l-4 hover:border-pink-400 items-center;
+}
+
+.navbar-button.active {
+  @apply py-2 px-2 block bg-white w-full rounded-lg text-pink-400 border-l-4 border-pink-400 items-center;
+}
